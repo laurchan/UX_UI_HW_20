@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.navbar {
+    background-color: #d2d8e4 !important;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    gap: 75px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #f0f4fe;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+
+hr {
+    background-color: #f0f4fe;
+    height: 4px;
+    width: 70px;
+    opacity: 100%;
+    border-color: #f0f4fe; 
+}
+
+li {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #f0f4fe;
+    font-family: 'Inter', sans-serif;
+}
+
+strong {
+    font-size: 24px;
+    line-height: 36px;
+    color: #f0f4fe;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 64px;
+    color: #f0f4fe;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 64px;
+    color: #f0f4fe;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #f0f4fe;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+.jumbotron .horizontal-list li:nth-of-type(1),
+.jumbotron .horizontal-list li:nth-of-type(2) {
+    margin-bottom: 20px; 
+}
+
+.jumbotron .first-hr {
+    margin: auto; 
+    width: 150px;
+}
+
+.jumbotron {
+    background-color: #4a505b;
+    padding: 60px 395px;
+}
+
+.horizontal-list {
+    display: flex; 
+    padding-left: 20px
+}
+
+.horizontal-list li {
+    margin-right: 100px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.research {
+    background-color: #868f9e;
+    padding: 60px 395px 100px;
+}
+
+.research .row li {
+    margin-bottom: 10px;
+}
+
+.research p:first-of-type {
+    margin-bottom: 10px; 
+}
+
+.research img {
+    margin-top: 15px;
+}
+
+.research hr:first-of-type {
+    width: 150px;
+}
+
+.research hr:nth-of-type(2) {
+    width: 150px;
+}
+
+.research h3 + p {
+    margin-bottom: 30px;
+}
+
+.research p:nth-of-type(3) {
+    margin-bottom: 50px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.research p:nth-of-type(4) {
+    margin-bottom: 50px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.research p:nth-of-type(5) {
+    margin-bottom: 60px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.research p:nth-of-type(6) {
+    margin-bottom: 60px; 
+    font-family: 'Inter', sans-serif;
+}
+
+.research p:nth-of-type(7) {
+    margin-bottom: 60px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.research p:nth-of-type(8) {
+    margin-bottom: 40px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.research .row p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.research .row li {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.problem {
+    background-color: #4a505b;
+    padding: 50px 395px 80px;
+}
+
+.iteration {
+    background-color: #868f9e;
+    padding: 50px 395px 80px;
+}
+
+.iteration img {
+    margin-top: 10px; 
+}
+
+.iteration .container p:nth-of-type(2) {
+    font-size: 20px;
+}
+
+.iteration .container hr {
+    width: 140px;
+}
+
+.prototype {
+    background-color: #4a505b;
+    padding: 80px 395px;
+}
+
+.prototype .container img {
+    width: 1000px;
+}
+
+.prototype .container hr {
+    width: 140px;
+}
+
+.prototype h3 {
+    margin-bottom: 10px; 
+}
+
+.prototype p {
+    margin-top: 10px;
+}
+
+.prototype h3:nth-of-type(2) {
+    margin-top: 50px; 
+}
+
+.prototype h3:nth-of-type(2) + p {
+    margin-top: 10px; 
+}
+
+.prototype h3:nth-of-type(3) {
+    margin-top: 50px; 
+}
+
+.prototype h3:nth-of-type(3) + p {
+    margin-top: 10px; 
+}
+
+.prototype h3:nth-of-type(4) {
+    margin-top: 50px; 
+}
+
+.prototype h3:nth-of-type(4) + p {
+    margin-top: 10px; 
+}
+
+.prototype .container div.text-center p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.prototype .container ul li,
+.prototype .container ol li {
+    margin-bottom: 10px; 
+}
+
+footer {
+    padding: 0 95px;
+}
+
+.footer .col-md-4 {
+    margin-left: 300px;
+}
